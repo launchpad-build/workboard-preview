@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/workboard-preview/launchpad-logo.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jack's Launchpad Workboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://use.typekit.net" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Halyard Display — same Adobe Fonts kit as launchpad.build -->
+    <link rel="stylesheet" href="https://use.typekit.net/xog3vbp.css" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("launchpad-workboard-theme-v2");
+          if (t !== "light" && t !== "dark") t = "light";
+          document.documentElement.classList.toggle("dark", t === "dark");
+          document.documentElement.classList.toggle("light", t === "light");
+        } catch (e) {
+          document.documentElement.classList.add("light");
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/workboard-preview/assets/index-oiDTMu-N.js"></script>
+    <link rel="stylesheet" crossorigin href="/workboard-preview/assets/index-BehfsoBW.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
